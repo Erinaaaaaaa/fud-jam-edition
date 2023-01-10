@@ -1,0 +1,57 @@
+﻿{
+  "ingredients":[
+    {"key":"tomato", "name":"Tomato"},
+    {"key":"egg", "name":"Egg"},
+    {"key":"meat", "name":"Meat"},
+    {"key":"oil", "name":"Oil"},
+    {"key":"flour", "name":"Flour"},
+
+    {"key":"bread", "name":"Bread"},
+    {"key":"pasta", "name":"Pasta"},
+    {"key":"ketchup", "name":"Ketchup"},
+    {"key":"omelette","name":"Omelette"},
+    {"key":"fried_egg","name":"Fried egg"},
+    {"key":"gasoline", "name":"Gazoline"},
+
+    {"key":"pomelette", "name": "Pomelette"},
+
+    {"key":"plain_burger", "name":"Plain burger"},
+    {"key":"kid_pasta", "name": "Drizzled Pasta"},
+    {"key":"drizzled_omelette","name":"Drizzled Omelette"},
+    {"key":"bread_egg", "name":"Oeuf à la coque"},
+
+    {"key":"bolognaise", "name":"Bolognaise"},
+    {"key":"fancy_burger", "name":"Fancy burger"},
+    {"key":"drizzled_pomelette", "name":"Drizzled Pomelette"}, 
+    
+    {"key":"big_breakfast", "name":"Big Breakfast"},
+    {"key":"big_mistake", "name":"Big Mistake"},
+    
+    {"key":"egg_delight", "name":"Egg Delight"}    
+  ],
+  "recipes":[
+
+    {"ingredients":["flour","oil"], "product":"bread"},
+    {"ingredients":["flour", "flour"], "product":"pasta"},
+    {"ingredients": ["tomato", "tomato"], "product": "ketchup"},
+    {"ingredients":["egg","egg"], "product":"omelette"},
+    {"ingredients":["egg", "oil"], "product":"fried_egg"},
+    {"ingredients":["oil", "oil"], "product":"gasoline"},
+
+    {"ingredients":["meat", "bread"], "product":"plain_burger"},
+    {"ingredients": ["pasta", "ketchup"], "product": "kid_pasta"},
+    {"ingredients": ["ketchup", "omelette"], "product":"drizzled_omelette"},
+    {"ingredients":["fried_egg", "bread"], "product": "bread_egg"},
+
+    {"ingredients":["meat", "kid_pasta"], "product":"bolognaise"},
+    {"ingredients":["plain_burger", "ketchup"], "product": "fancy_burger"},
+
+    {"ingredients":["pasta", "omelette"], "product":"pomelette"}, 
+
+    {"ingredients":["pomelette", "ketchup"], "product":"drizzled_pomelette"},
+    {"ingredients":["drizzled_pomelette", "fancy_burger"], "product": "big_breakfast"},
+
+    {"ingredients":["big_breakfast", "big_breakfast"], "product": "big_mistake"},
+    {"ingredients":["drizzled_omelette", "bread_egg"], "product": "egg_delight"}
+  ]
+}
